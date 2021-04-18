@@ -121,16 +121,19 @@ nav ul li a:hover{
     margin-right: 50px;
 }
 
+
 /* Separador */
 #separador{
     width: 100%;
     height: 225px;
     background-color:white;
 }
+
+
 /* Footer */
 .footter{
     color: white;
-    background-color: black;
+    background-color: rgb(253, 0, 97);
 }
 
 .redesSociales{
@@ -148,6 +151,15 @@ nav ul li a:hover{
 
 #red3{
     width: 150px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration:underline;
+    color: burlywood;
 }
 
 footer h3{
