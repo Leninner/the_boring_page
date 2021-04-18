@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:cursive;
+}
+
+
+/* Header */
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(253, 0, 97);
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;;
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1 a:hover{
+    color: burlywood;
+}
+
+
+/* Menú Principal */
+nav{
+    float: right;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+} 
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+
+
+/* Divisiones */
+
+
+#div12{
+    float: none;
+    width: auto;
+    height: 700px;
+    background-color: darksalmon;
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 35px;
+}
+
+#subTitle{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cajas{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#caja1 {
+    width: 150px;
+    background-color: yellow;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#caja2{
+    width: 150px;
+    background-color: teal;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    }
+
+#caja3{
+    width: 150px;
+    background-color: thistle;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#div1{
+    float: left;
+    width: 40%;
+    background-color: darkgreen;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+#div2{
+    float: right;
+    width: 40%;
+    background-color: darkmagenta;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+/* Separador */
+#separador{
+    width: 100%;
+    height: 225px;
+    background-color:white;
+}
+/* Footer */
+.footter{
+    color: white;
+    background-color: black;
+}
+
+.redesSociales{
+    width: 100%;
+    height: 200px;
+}
+
+#red1{
+    width: 150px;
+}
+
+#red2{
+    width: 150px; 
+}
+
+#red3{
+    width: 150px;
+}
+
+footer h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.redes1{
+    padding-top: 10px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
